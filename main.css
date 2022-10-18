@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Inspiration&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul ol{
+    list-style: none;
+}
+img{
+    max-width: 100%;
+}
+a{
+    text-decoration: none;
+}
+body{
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.header_add{
+    width: 100%;
+    min-height: 50vh;
+    background-image: url(../img/bg_img.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 50px;
+}
+.nav_add{
+    width: 100%;
+    display: block;
+    padding: 20px 30px;
+    border-bottom: 1px solid white;
+}
+.nav_list_add{
+    width: 60%;
+    margin: 0 auto;
+}
+.nav_item_add{
+    display: inline-block;
+    width: 32%;
+    padding: 10px 20px;
+    text-align: center;
+}
+.nav_link_add{
+    color: white;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+.main_title_add{
+    font-size: 130px;
+    color: white;
+    margin-top: 50px;
+    font-family: 'Inspiration', cursive;
+    margin-left: 330px;
+    letter-spacing: 15px;
+    word-spacing: 20px;
+    font-weight: bold;
+}
+.section_add{
+    padding: 30px 40px;
+}
+.section_title_add{
+    text-align: center;
+    padding-top: 10px;
+    font-size: 80px;
+    font-family: 'Inspiration', cursive;
+    padding-bottom: 30px;
+}
+.section_image_add{
+    float: left;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    padding: 5px;
+}
+.section_text_add{
+    margin-bottom: 20px;
+    color: rgb(111, 100, 116);
+}
+.footer_add{
+    width: 100%;
+    display: block;
+    padding: 10px 30px;
+    background-color: #77C5EFFF;
+    color: white;   
+}
+.footer_list_add{
+    display: inline-block;
+    margin-left: 580px;
+    font-family: 'Inspiration', cursive;
+    width: 22%;
+}
+.footer_title_add{
+    display: inline-block;
+    font-family: 'Inspiration', cursive;
+    font-size: 70px;
+    letter-spacing: 5px;
+    margin-left: 50px;
+}
+.footer_item_add{
+    display: inline-block;
+    padding: 10px 20px;
+    text-align: center;
+}
+.footer_link_add{
+    color: white;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
